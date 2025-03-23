@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Akun</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 50%; margin: 20px auto; padding: 20px; border: 1px solid black; border-radius: 10px; }
+        input, select, button { width: 100%; padding: 8px; margin: 5px 0; }
+        input[type="radio"] { width: auto; margin-right: 5px; }
+        button { background: blue; color: white; border: none; cursor: pointer; }
+        button:hover { background: darkblue; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Registrasi Akun</h1>
+    <form>
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan Nama">
+
+        <label>NIM:</label>
+        <input type="text" placeholder="Masukkan NIM">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Masukkan Email">
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+
+        <label>Agama:</label>
+        <select>
+            <option>Pilih Agama</option>
+            <option>Islam</option>
+            <option>Kristen</option>
+            <option>Katolik</option>
+            <option>Hindu</option>
+            <option>Buddha</option>
+            <option>Konghucu</option>
+        </select>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Masukkan Password">
+
+        <label>Konfirmasi Password:</label>
+        <input type="password" placeholder="Konfirmasi Password">
+
+        <button type="submit">Daftar</button>
+    </form>
+</div>
+
+</body>
+</html>
